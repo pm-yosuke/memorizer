@@ -8,7 +8,7 @@
 	convertWarningsToExceptions="true"
 	>
 	<testsuites>
-		<testsuite name="WP_Memorizer">
+		<testsuite name="memorizer">
 			<directory prefix="test-" suffix=".php">./tests/php/</directory>
 		</testsuite>
 	</testsuites>

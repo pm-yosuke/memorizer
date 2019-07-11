@@ -81,8 +81,6 @@ class WP_Memorizer {
 		if ( ! isset( self::$instance ) ) {
 			self::$instance = new self;
 		}
-
-		return self::$instance;
 	}
 
 	/**
