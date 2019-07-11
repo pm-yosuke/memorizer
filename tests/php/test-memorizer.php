@@ -11,7 +11,7 @@ class WP_Memorizer_Test extends WP_UnitTestCase {
 
 	public function setUp() {
 		parent::setUp();
-		$ref  = new ReflectionClass( '\WP_Memorizer' );
+		$ref  = new ReflectionClass( WP_Memorizer::get_instance() );
 		$prop = $ref->getProperty( 'instance' );
 		$prop->setAccessible( true );
 		$this->instance = $prop->getValue();
